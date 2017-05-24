@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="index.css"/>
+    <meta charset="utf-8"/>
+    <title>Page de Ouf</title>
+</head>
+<body>
+   <div id="header_container">
+     <header id="header1">
+        <a class="a" id="a1" href="./index.html">Accueil</a>
+        <a class="a" id="a2" onclick='show_nav2("Controverse")' href="#">Controverse</a>
+        <a class="a" id="a3" onclick='show_nav2("Approfondir")' href="#">Approfondir</a>
+        <a class="a" id="a4" href="#">Synthèse</a>
+        <a class="a" id="a5" href="./index.html">Accueil</a>
+        <a class="a" id="a6" onclick='show_nav2("Controverse")' href="#">Controverse</a>
+        <a class="a" id="a7" onclick='show_nav2("Approfondir")' href="#">Approfondir</a>
+        <a class="a" id="a8" href="#">Synthèse</a>
+    </header>
+    <header id="header2">
+        <a class="b" id="b1" href="signature.html">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</a>
+        <a class="b" id="b2" href="#">مَٰلِكِ يَوْمِ ٱلدِّينِ</a>
+        <a class="b" id="b3" href="#">إِيَّاكَ نَعْبُدُ</a>
+        <a class="b" id="b4" href="#">وَإِيَّاكَ نَسْتَعِينُ</a>
+        <a class="b" id="b5" href="#">ٱهْدِنَا ٱلصِّرَٰطَ</a>
+        <a class="b" id="b6" href="#">ٱلْمُسْتَقِيمَ</a>
+    </header>
+    </div>
+    <div id="body_cover">
+        <div id="div_body">
+        
+        Ceci est la div
+        <p id = "p0">Salut</p>
+        <p id="p1">Toujours mettre les appels javascript en bas de la page</p>
+        
+        <p>Les opérateurs de type <strong>+= *=</strong> sont plus efficaces car ils ne font pas appel à une variable temporaire commme le ferait a = a + b;</p>
+        
+        <p id="p3">Pour convertir une string d'entier en entier, on utilise parseInt(s) (il existe aussi parseFloat() ) qui peut s'appeler telle quelle.</p>
+        
+        <p> Le elif s'écrit simplement <bold>else if</bold></p>
+        
+        <p> <bold>switch</bold> fonctionne exactement comme en java. On peut faire un switch(true) de façon intéressante</p>
+        
+        <p id="p4">L'opérateur hérité du C intéressante est<br/> = cond ? valeurSiVraie : valeurSiFausse</p>
+            
+        <p><span id="alinea"></span>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique. Les premières lignes du Lorem Ipsum, "Lorem ipsum dolor sit amet...", proviennent de la section 1.10.32.</p>
+        <p><span id="alinea"></span>Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique. Les premières lignes du Lorem Ipsum, "Lorem ipsum dolor sit amet...", proviennent de la section 1.10.32.</p>
+    </div>
+    </div>
+    <footer>
+        <div id="footer_button">?</div>
+        Contact | ETIC 2017 | Groupe de folie
+    </footer>
+    <script>
+        var name;
+        name = "STOP";
+        while (name!="STOP") {
+        alert(name + "\n STOP pour arrêter");
+        name = prompt("Comment vous appelez-vous ?");
+        }
+        document.getElementById("p3").innerHTML += " Exemple ici avec parseInt(\"53\") + 7 = " + (parseInt("53") + 7);
+        
+        var x = 100;
+        var color = 0;
+        setInterval(function() {
+            x+=0.5; 
+            //moveLeft(x);
+            color +=0.1; 
+            //changeColor(color); 
+            moveNav(x); 
+            affiche(x);
+        }, 10);
+        
+        function affiche(x) {
+            document.getElementById("p0").innerHTML =  "x vaut : " + x;
+        }
+        
+        
+        function moveNav(x) {
+            var i = 0;
+            for (i=1; i<9; i++) {
+                document.getElementById("a" + i).style.left = (25*i + x/6 )%200 - 25 + "%";
+            }
+            for (i=1; i<7; i++) {
+                document.getElementById("b" + i).style.right = (25*i + x/8)%150 -15 + "%";
+            }
+        }
+        
+        function show_nav2(s){          
+            document.getElementById("header2").style.visibility = "visible";
+            if (s=="Controverse") {
+                document.getElementById("b1").innerHTML = "acteurs";
+                document.getElementById("b1").href = "./acteurs.html";
+                document.getElementById("b2").innerHTML = "débats";
+                document.getElementById("b2").href = "./debats.html";
+                document.getElementById("b3").innerHTML = "timeline";
+                document.getElementById("b3").href = "./timeline.html";
+                document.getElementById("b4").innerHTML = "acteurs";
+                document.getElementById("b4").href = "./acteurs.html";
+                document.getElementById("b5").innerHTML = "débats";
+                document.getElementById("b5").href = "./debats.html";
+                document.getElementById("b6").innerHTML = "timeline";
+                document.getElementById("b6").href = "./timeline.html";
+            }
+            if (s=="Approfondir") {
+                document.getElementById("b1").innerHTML = "entretiens";
+                document.getElementById("b1").href = "./acteurs.html";
+                document.getElementById("b2").innerHTML = "anticipation";
+                document.getElementById("b2").href = "./debats.html";
+                document.getElementById("b3").innerHTML = "truc de ouf";
+                document.getElementById("b3").href = "./timeline.html";
+                document.getElementById("b4").innerHTML = "entretiens";
+                document.getElementById("b4").href = "./acteurs.html";
+                document.getElementById("b5").innerHTML = "anticipation";
+                document.getElementById("b5").href = "./debats.html";
+                document.getElementById("b6").innerHTML = "truc de ouf";
+                document.getElementById("b6").href = "./timeline.html";
+            }
+                
+            }
+            
+    
+        
+        
+    </script>
+</body>
+</html>
