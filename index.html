@@ -1,30 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="./css/index.css"/>
     <meta charset="utf-8"/>
     <title>Page de Ouf</title>
 </head>
 <body>
    <div id="header_container">
-     <header id="header1">
-        <a class="a" id="a1" href="./index.html">Accueil</a>
-        <a class="a" id="a2" onclick='show_nav2("Controverse")' href="#">Controverse</a>
-        <a class="a" id="a3" onclick='show_nav2("Approfondir")' href="#">Approfondir</a>
-        <a class="a" id="a4" href="#">Synthèse</a>
-        <a class="a" id="a5" href="./index.html">Accueil</a>
-        <a class="a" id="a6" onclick='show_nav2("Controverse")' href="#">Controverse</a>
-        <a class="a" id="a7" onclick='show_nav2("Approfondir")' href="#">Approfondir</a>
-        <a class="a" id="a8" href="#">Synthèse</a>
-    </header>
-    <header id="header2">
-        <a class="b" id="b1" href="signature.html">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</a>
-        <a class="b" id="b2" href="#">مَٰلِكِ يَوْمِ ٱلدِّينِ</a>
-        <a class="b" id="b3" href="#">إِيَّاكَ نَعْبُدُ</a>
-        <a class="b" id="b4" href="#">وَإِيَّاكَ نَسْتَعِينُ</a>
-        <a class="b" id="b5" href="#">ٱهْدِنَا ٱلصِّرَٰطَ</a>
-        <a class="b" id="b6" href="#">ٱلْمُسْتَقِيمَ</a>
-    </header>
     </div>
     <div id="body_cover">
         <div id="div_body">
@@ -51,6 +33,7 @@
         <div id="footer_button">?</div>
         Contact | ETIC 2017 | Groupe de folie
     </footer>
+    <script type="text/javascript" src="nav.js"></script>
     <script>
         var name;
         name = "STOP";
@@ -60,64 +43,6 @@
         }
         document.getElementById("p3").innerHTML += " Exemple ici avec parseInt(\"53\") + 7 = " + (parseInt("53") + 7);
         
-        var x = 100;
-        var color = 0;
-        setInterval(function() {
-            x+=0.5; 
-            //moveLeft(x);
-            color +=0.1; 
-            //changeColor(color); 
-            moveNav(x); 
-            affiche(x);
-        }, 10);
-        
-        function affiche(x) {
-            document.getElementById("p0").innerHTML =  "x vaut : " + x;
-        }
-        
-        
-        function moveNav(x) {
-            var i = 0;
-            for (i=1; i<9; i++) {
-                document.getElementById("a" + i).style.left = (25*i + x/6 )%200 - 25 + "%";
-            }
-            for (i=1; i<7; i++) {
-                document.getElementById("b" + i).style.right = (25*i + x/8)%150 -15 + "%";
-            }
-        }
-        
-        function show_nav2(s){          
-            document.getElementById("header2").style.visibility = "visible";
-            if (s=="Controverse") {
-                document.getElementById("b1").innerHTML = "acteurs";
-                document.getElementById("b1").href = "./acteurs.html";
-                document.getElementById("b2").innerHTML = "débats";
-                document.getElementById("b2").href = "./debats.html";
-                document.getElementById("b3").innerHTML = "timeline";
-                document.getElementById("b3").href = "./timeline.html";
-                document.getElementById("b4").innerHTML = "acteurs";
-                document.getElementById("b4").href = "./acteurs.html";
-                document.getElementById("b5").innerHTML = "débats";
-                document.getElementById("b5").href = "./debats.html";
-                document.getElementById("b6").innerHTML = "timeline";
-                document.getElementById("b6").href = "./timeline.html";
-            }
-            if (s=="Approfondir") {
-                document.getElementById("b1").innerHTML = "entretiens";
-                document.getElementById("b1").href = "./acteurs.html";
-                document.getElementById("b2").innerHTML = "anticipation";
-                document.getElementById("b2").href = "./debats.html";
-                document.getElementById("b3").innerHTML = "truc de ouf";
-                document.getElementById("b3").href = "./timeline.html";
-                document.getElementById("b4").innerHTML = "entretiens";
-                document.getElementById("b4").href = "./acteurs.html";
-                document.getElementById("b5").innerHTML = "anticipation";
-                document.getElementById("b5").href = "./debats.html";
-                document.getElementById("b6").innerHTML = "truc de ouf";
-                document.getElementById("b6").href = "./timeline.html";
-            }
-                
-            }
             
     
         
