@@ -1,21 +1,57 @@
-url,Date,Type d'url,Type d'acteur,Theme dans la controverse,Position vis-a-vis du theme,Poids dans la controverse,Lu en detail ?
-www.laprimaire.org,Jun-14,Site vitrine,Association,Representation des citoyens,Pour une representation plus juste,35 000 personnes,Oui
-www.change.org,Jul-17,Site de petitions en ligne,Association,Pouvoir de decision du peuple,Pour un plus grand pouvoir de decision du peuple,180 000 000 personnes,Oui
-www.liegeymullerpons.fr,Oct-08,Site vitrine,Startup,Strategie electorale,Pas de position,14 000 000 personnes ,Oui
-www.voxe.org,Jan-12,Site d'informations,Association,Objectivite de l'information,Pour la neutralite des informations,2 000 000 personnes,Non
+﻿url,Date,Type d'url,Type d'acteur,Theme dans la controverse,Position vis-a-vis du theme,Poids dans la controverse (1-5,Lu en detail ?
+www.laprimaire.org,Jun-14,Site vitrine,Association,Representation des citoyens,Pour une representation plus juste,3,Oui
+www.change.org,Jul-17,Site de petitions en ligne,Association,Pouvoir de decision du peuple,Pour un plus grand pouvoir de decision du peuple,5,Oui
+www.liegeymullerpons.fr,Oct-08,Site vitrine,Startup,Strategie electorale,Pas de position,5,Oui
+www.voxe.org,Jan-12,Site d'informations,Association,Objectivite de l'information,Pour la neutralite des informations,5,Non
 www.nosdeputes.fr,Jan-09,Base de donnees,Association,Transparence des institutions,Pour une transparence totale des institutions,,Oui
 www.nossenateurs.fr,Jan-11,Base de donnees,Association,Transparence des institutions,Pour une transparence totale des institutions,,Oui
 www.politizr.com,Aug-15,Forum,Association,Communication entre citoyens et elus,Pour une meilleure communication entre citoyens et elus,,Oui
 www.civocracy.org,,Reseau social,Association,Pouvoir de decision du peuple,Pour un plus grand pouvoir de decision du peuple,,Oui
-www.pixelhumain.com,,Reseau social,Association,Pouvoir de decision du peuple,Pour un plus grand pouvoir de decision du peuple,5000 personnes,Oui
+www.pixelhumain.com,,Reseau social,Association,Pouvoir de decision du peuple,Pour un plus grand pouvoir de decision du peuple,1,Oui
 madeinvote.com,Jul-16,Plateforme de crowdsourcing,Association,Pouvoir de decision du peuple,Pour un plus grand pouvoir de decision du peuple,,Non
-www.flui.city,,Site vitrine pour une application de reseau social,Association,Communication entre citoyens et elus,Pour une meilleure communication entre citoyens et elus,10000 personnes,Non
+www.flui.city,,Site vitrine pour une application de reseau social,Association,Communication entre citoyens et elus,Pour une meilleure communication entre citoyens et elus,2,Non
 www.thegoodlobby.eu,Jan-15,Site de rencontres,Startup,Lobbying,Pour donner plus de pouvoir aux ONG,,Oui
 www.collecticity.fr,,Plateforme de crowdsourcing,Association,Pouvoir de decision du peuple,Pour un plus grand pouvoir de decision du peuple,,Oui
 baztille.org,,Site de vote en ligne,Association,Pouvoir de decision du peuple,Pour un plus grand pouvoir de decision du peuple,,Non
 agoralab.fr/TV,,Site vitrine,Association,Debats politiques,Pour des debats politiques ouverts a tous,,Oui
-ledrenche.fr,Jan-15,Site vitrine d'un journal,Journal,Objectivite de l'information,Pour la neutralite des informations,2000 personnes,Oui
-www.parlement-et-citoyens.fr,Feb-13,Plateforme collaborative,Association,Elaboration des lois,Pour une plus grande participation des citoyens dans l'elaboration des lois,20000 personnes,Non
-www.veritepolitique.fr,,Site d'informations,Association,Promesses et arguments des candidats,Pour une verification de la tenue des promesses et des faits utilises dans les debats par les candidats,,Non
+ledrenche.fr,Jan-15,Site vitrine d'un journal,Journal,Objectivite de l'information,Pour la neutralite des informations,1,Oui
+www.parlement-et-citoyens.fr,Feb-13,Plateforme collaborative,Association,Elaboration des lois,Pour une plus grande participation des citoyens dans l'elaboration des lois,2,Non
+www.veritepolitique.fr,,Site d'informations,Association,Promesses et arguments des candidats,Pour une verification de la tenue des promesses et des faits utilises dans les debats par les candidats,,Oui
 citizenlab.fr,Nov-15,Forum,Association,Fondements de l'etat,Pour un renversement de l'ordre et du systeme,,Non
 qualiscore.fr/,Jun-05,Site vitrine,Association,Visibilite des actions des elus,Pour une plus grande visibilite des actions des elus au niveau des communes,,Oui
+www.mavoix.info,Jan-17,Site vitrine,Association,Pouvoir de decision du peuple,Pour un plus grand pouvoir de decision du peuple,3,Oui
+http://civictechno.fr/2016/12/17/et-si-la-civictech-etait-vouee-a-lechec-14/,Dec-16,Blog post,Association,Changer la democratie,Les civic tech ne peuvent pas changer la democratie seules,4,Oui
+http://civictechno.fr/2016/12/18/civic-tech-incapable-doutiller-societe-civile-civictech-etait-vouee-a-lechec/,Jan-17,Blog post,Association,Changer la democratie,Les civic tech ne peuvent pas changer la democratie seules,5,Oui
+http://civictechno.fr/2016/12/20/gouvernement-pas-si-ouvert-et-open-data-non-intelligible-et-si-la-civic-tech-etait-vouee-a-lechec-34/,Feb-17,Blog post,Association,Changer la democratie,Les civic tech ne peuvent pas changer la democratie seules,6,Oui
+http://civictechno.fr/2016/12/22/les-civic-tech-survivront-elles-aux-elections-presidentielles-de-2017/,Mar-17,Blog post,Association,Changer la democratie,Les civic tech ne peuvent pas changer la democratie seules,7,Oui
+http://www.ladepeche.fr/article/2017/04/02/2548716-internet-ne-suffit-pas-a-revolutionner-la-politique.html,Apr-17,Article,Presse,Changer la democratie,Les civic tech ne peuvent pas changer la democratie seules,4,Oui
+http://www.lacomeuropeenne.fr/2017/05/10/cartographie-des-civic-tech-europeennes/,May-17,Article,Association,Classement des civic tech,,2,Oui
+http://bluenove.com/blog/civic-tech-une-nouvelle-classification/,Apr-17,Article,Association,Classement des civic tech,,3,Oui
+http://www.laviedesidees.fr/Citoyen-hackeur.html,May-17,Article,Chercheur,General,,4,Oui
+https://www.etalab.gouv.fr/,Feb-11,Site vitrine,Etat,Open data,Pour une transparence totale des institutions,5,Non
+http://www.data.gouv.fr/fr/,Feb-11,Site vitrine,Etat,Open data,Pour une transparence totale des institutions,5,Non
+https://www.opengovpartnership.org/,01-Nov,Site vitrine,Association,Open data,Pour une transparence totale des institutions,5,Non
+http://agencedunumerique.gouv.fr/,Feb-15,Site vitrine,Etat,Changement du systeme administratif,"Pour un systeme agile, rapide, adapte au numerique",4,Oui
+https://blogs.mediapart.fr/romain-variot/blog/290517/la-civic-tech-vers-le-populisme-mondain,May-17,Blog post,Presse,General,,4,Non
+http://lesarpenteurs.fr/civic-tech-miracle-ou-mirage/,,Blog post,Association,General,,2,Non
+http://www.modernisation.gouv.fr/actualites/actualites/sommet-mondial-du-partenariat-pour-un-gouvernement-ouvert-0,Dec-16,Article,Etat,Transparence des institutions,Pour une transparence totale des institutions,4,Oui
+https://fr.wikipedia.org/wiki/Partenariat_pour_un_gouvernement_ouvert,09-Nov,Article,Etats,Transparence des institutions,Pour une transparence totale des institutions,5,Oui
+http://www.atelier.net/trends/articles/civic-tech-reenchante-petition-ligne_445910,May-17,Article,Entreprise,Petitions en ligne,Les civic tech font revivre les petitions en ligne,2,Oui
+https://www.regardscitoyens.org/civic-tech-ou-civic-business-le-numerique-ne-pourra-pas-aider-la-democratie-sans-en-adopter-les-fondements/,Dec-16,Article ,Association,Changer la democratie,Les civic tech doivent adopter les fondements de la democratie,4,Oui
+http://www.usine-digitale.fr/article/pour-eviter-l-uberisation-de-la-democratie-representative-nos-deputes-ont-une-idee.N426347,Aug-16,Article ,Presse,Communication entre citoyens et elus,Pour une meilleure communication entre citoyens et elus,3,Oui
+http://www.usine-digitale.fr/article/le-vrai-changement-est-dans-la-fabrique-de-la-loi-pour-une-republique-numerique.N401622,Jul-16,Article ,Presse,Communication entre citoyens et elus,Pour une meilleure communication entre citoyens et elus,3,Oui
+http://www.usine-digitale.fr/article/13-idees-pour-convertir-les-politiques-a-la-democratie-numerique-sans-les-braquer.N387719,Apr-16,Article ,Presse,Changer la democratie,Pour un changement en douceur vers une democratie numerique,3,Oui
+http://www.usine-digitale.fr/article/malgre-les-algorithmes-la-politique-reste-une-affaire-humaine-il-faut-parler-pour-convaincre-guillaume-liegey-co-fondateur-de-lmp.N490629,Jan-17,Article ,Presse,Changer la democratie,La politique aura toujours une part humaine,3,Oui
+http://www.usine-digitale.fr/article/primaire-de-gauche-qui-etait-le-meilleur-web-candidat-infographie.N490619,Jan-17,Article ,Presse,Presidentielle de 2017,,3,Oui
+http://www.usine-digitale.fr/article/primaires-americaines-5-start-up-qui-veulent-changer-la-democratie.N382664,Mar-16,Article ,Presse,Changer la democratie,,3,Oui
+http://www.usine-digitale.fr/article/comment-faire-entrer-le-numerique-dans-les-debats-politiques-d-ici-2017.N384851,Apr-16,Article ,Presse,Adapter les institutions au numerique,Les institutions publiques gagneraient a s'adapter au numerique le plus tôt possible,3,Oui
+http://www.usine-digitale.fr/article/opendata-ch-hacke-les-elections-federales-suisses.N347896,Sep-15,Article,Presse,Open data,Pour une transparence totale des institutions,3,Oui
+http://www.numerique2017.fr/,Dec-16,Site vitrine,Association,General,,2,Non
+https://medium.com/@ValentinChaput/civic-tech-1-la-civic-tech-veut-inventer-la-d%C3%A9mocratie-de-l-%C3%A8re-internet-c9e7d5b5d742,Jan-16,Article,Particulier,Definir civic tech,,2,Oui
+https://extranewsfeed.com/la-civic-tech-nous-permet-de-mieux-comprendre-les-enjeux-politiques-2bacca8906c0,Jan-16,Article,Particulier,Objectivite de l'information,Les civic tech aident les citoyens a se mettre au courant de maniere non biaisee et neutre,2,Oui
+https://medium.com/@ValentinChaput/la-civic-tech-renouvelle-les-outils-pour-mobiliser-les-citoyens-25a660fea0d7,Jan-16,Article,Particulier,Pouvoir de decision du peuple,Les civic tech encouragent les citoyens à s'engager plus,2,Oui
+http://bluenove.com/blog/5-questions-pour-decrypter-les-civic-tech/,Mar-17,Article,Association,General,,3,Non
+http://bluenove.com/blog/les-civic-tech-peuvent-elles-sintegrer-dans-notre-paysage-institutionnel/,Dec-16,Article,Association,Adapter les institutions au numerique,Les civic tech doivent se developper avec les institutions et pas contre,3,Oui
+https://elabe.fr/civic-tech-modele-fragile/,Jan-17,Article,Association,Resilience des civic tech,Les civic tech sont un système fragile,3,Oui
+http://www.so-civictech.com/,Jan-16,Site vitrine,Association,General,,1,Non
+http://groupenumerique.fr/blog/les-civic-tech-ont-le-vent-en-poupe-mais-quen-est-il-vraiment/,Jun-16,Article,Association ,Resilience des civic tech,Le défi des civic tech est difficile,2,Oui
