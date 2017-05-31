@@ -98,17 +98,6 @@ h1 img:last-child {
     display: block;
 }
 
-#p4 {
-    background-color : blue;
-}
-
-#p4:hover{
-    box-shadow: inset 0px 0px 20px 0px black;
-}
-
-#p4:active{
-    box-shadow: inset 0px 0px 20px 10px black;
-}
 
 /*//////////////////////////////////////HEADER AND LINKS////////////////////////////////////*/
 
@@ -236,6 +225,7 @@ html {
     width:100%;
     background-color: rgba(0,0,0,0.8);
     align-content: center;
+    height:100%;
 }
 
 strong, bold {
@@ -270,3 +260,5 @@ strong, bold {
     
     
 }
+
+

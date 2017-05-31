@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="stylesheet" href="./css/debats.css"/>
+    <meta charset="utf-8"/>
+    <title>Page de Ouf</title>
+</head>
+<body>
+   <div id="header_container">
+    </div>
+    <div id="body_cover">
+        <div id="div_body">
+        <div id="croquis">
+            <img src="./images/bubble_actors.png" height="600px">
+            <a id="p1" onclick="af(1)">Les Civi-Tech peuvent-elles réparer la démocratie</a>
+            <a id="p2" onclick="af(2)">effectivité</a>
+            <a id="p3" onclick="af(3)">représentativité</a>
+            <a id="p4" onclick="af(4)">influence sur l'état</a>
+            <a id="p5" onclick="af(5)">facteur temporel</a>
+            <a id="p6" onclick="af(6)">accès</a>
+            <a id="p7" onclick="af(7)">modernité</a>
+            <a id="p8" onclick="af(8)">isolation</a>
+            <a id="p9" onclick="af(9)">données</a>
+            <a id="p10" onclick="af(10)">transparence</a>
+            <a id="p11" onclick="af(11)">traitement des données</a>
+            <a id="p12" onclick="af(12)">financement</a>
+            <a id="p13" onclick="af(13)">neutralité</a>
+            <a id="p14" onclick="af(14)">légitimité</a>
+            <a id="p15" onclick="af(15)">neutralité</a>
+            <a id="p16" onclick="af(16)">légalité</a>
+            <a id="p17" onclick="af(17)">représentabilité</a>
+        </div>
+            <div id="pinfo"></div>
+    </div>
+    </div>
+    <footer>
+        <div id="footer_button">?</div>
+        Contact | ETIC 2017 | Groupe de folie
+    </footer>
+    <script type="text/javascript" src="nav.js"></script>
+    <script>
+    var tabinfo = [ "Inter haec Orfitus praefecti potestate regebat urbem aeternam ultra modum delatae dignitatis sese efferens insolenter, vir quidem prudens et forensium negotiorum oppido gnarus, sed splendore liberalium doctrinarum minus quam nobilem decuerat institutus, quo administrante seditiones sunt concitatae graves ob inopiam vini: huius avidis usibus vulgus intentum ad motus asperos excitatur et crebros.",
+                  "Inter haec Orfitus praefecti potestate regebat urbem aeternam ultra modum delatae dignitatis sese efferens insolenter, vir quidem prudens et forensium negotiorum oppido gnarus, sed splendore liberalium doctrinarum minus quam nobilem decuerat institutus, quo administrante seditiones sunt concitatae graves ob inopiam vini: huius avidis usibus vulgus intentum ad motus asperos excitatur et crebros.",
+                  "Inter haec Orfitus praefecti potestate regebat urbem aeternam ultra modum delatae dignitatis sese efferens insolenter, vir quidem prudens et forensium negotiorum oppido gnarus, sed splendore liberalium doctrinarum minus quam nobilem decuerat institutus, quo administrante seditiones sunt concitatae graves ob inopiam vini: huius avidis usibus vulgus intentum ad motus asperos excitatur et crebros.",
+                  "Inter haec Orfitus praefecti potestate regebat urbem aeternam ultra modum delatae dignitatis sese efferens insolenter, vir quidem prudens et forensium negotiorum oppido gnarus, sed splendore liberalium doctrinarum minus quam nobilem decuerat institutus, quo administrante seditiones sunt concitatae graves ob inopiam vini: huius avidis usibus vulgus intentum ad motus asperos excitatur et crebros.",
+                  "Inter haec Orfitus praefecti potestate regebat urbem aeternam ultra modum delatae dignitatis sese efferens insolenter, vir quidem prudens et forensium negotiorum oppido gnarus, sed splendore liberalium doctrinarum minus quam nobilem decuerat institutus, quo administrante seditiones sunt concitatae graves ob inopiam vini: huius avidis usibus vulgus intentum ad motus asperos excitatur et crebros.",
+                  "BEH OUAIS C'EST OUFFF BEH OUAIS C'EST OUFFF BEH OUAIS C'EST OUFFFBEH OUAIS C'EST OUFFF BEH OUAIS C'EST OUFFF BEH OUAIS C'EST OUFFF",
+                  "NON MAIS MERCI TU T'ES VU ?",
+                  "Heu t ki toi ?",
+                  ]
+    function af(n) {
+        document.getElementById("pinfo").tabIndex = -1;
+        document.getElementById("pinfo").focus();
+        document.getElementById("pinfo").innerHTML = tabinfo[n];
+    }
+    </script>
+</body>
+</html>

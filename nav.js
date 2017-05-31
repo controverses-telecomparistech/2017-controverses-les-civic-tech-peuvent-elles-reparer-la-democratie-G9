@@ -33,7 +33,7 @@ setInterval(function() {
 }
 
 function affiche(x) {
-    document.getElementById("p0").innerHTML =  "x vaut : " + x;
+    //document.getElementById("p0").innerHTML =  "x vaut : " + x;
 }
         
         
@@ -65,16 +65,16 @@ function affiche(x) {
             }
             if (s=="Approfondir") {
                 document.getElementById("b1").innerHTML = "entretiens";
-                document.getElementById("b1").href = "./acteurs.html";
+                document.getElementById("b1").href = "./entretiens.html";
                 document.getElementById("b2").innerHTML = "anticipation";
-                document.getElementById("b2").href = "./debats.html";
-                document.getElementById("b3").innerHTML = "truc de ouf";
-                document.getElementById("b3").href = "./timeline.html";
+                document.getElementById("b2").href = "./anticipation.html";
+                document.getElementById("b3").innerHTML = "politique";
+                document.getElementById("b3").href = "./politique.html";
                 document.getElementById("b4").innerHTML = "entretiens";
-                document.getElementById("b4").href = "./acteurs.html";
+                document.getElementById("b4").href = "./entretiens.html";
                 document.getElementById("b5").innerHTML = "anticipation";
-                document.getElementById("b5").href = "./debats.html";
-                document.getElementById("b6").innerHTML = "truc de ouf";
-                document.getElementById("b6").href = "./timeline.html";
+                document.getElementById("b5").href = "./anticipation.html";
+                document.getElementById("b6").innerHTML = "politique";
+                document.getElementById("b6").href = "./politique.html";
             }
         }
