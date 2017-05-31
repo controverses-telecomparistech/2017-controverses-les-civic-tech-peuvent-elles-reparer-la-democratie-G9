@@ -1,0 +1,1298 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/">
+    <bib:Article rdf:about="https://netcom.revues.org/2542">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:number>30-3/4</prism:number>
+                <dc:title>Netcom. Réseaux, communication et territoires</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Douay</foaf:surname>
+                        <foaf:givenname>Nicolas</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_10"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://netcom.revues.org/2542</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>249–280</bib:pages>
+        <dc:date>2016</dc:date>
+        <dcterms:dateSubmitted>2017-05-10 07:53:40</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:title>La numérisation des dispositifs de participation de la Mairie de Paris. Le cas du budget participatif et de la plateforme «Madame la Maire, j’ai une idée!»</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_10">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:2542.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://netcom.revues.org/2542</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 07:53:44</dcterms:dateSubmitted>
+        <dc:title>[HTML] revues.org</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.lesechos.fr/31/10/2016/lesechos.fr/0211442026292_securisons-les-votes-electroniques-grace-a-la---blockchain--.htm">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>lesechos.fr</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_12"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.lesechos.fr/31/10/2016/lesechos.fr/0211442026292_securisons-les-votes-electroniques-grace-a-la---blockchain--.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2016-10-31 08:02:30</dc:date>
+        <dcterms:dateSubmitted>2017-05-10 08:16:05</dcterms:dateSubmitted>
+        <dcterms:abstract>LE CERCLE/POINT DE VUE - Les Américains, qui éliront un nouveau président le 8 novembre, votent pour beaucoup de manière électronique. Et si la �...</dcterms:abstract>
+        <dc:title>Sécurisons les votes électroniques grâce à la « blockchain »</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_12">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:0211442026292_securisons-les-votes-electroniques-grace-a-la---blockchain--.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.lesechos.fr/31/10/2016/lesechos.fr/0211442026292_securisons-les-votes-electroniques-grace-a-la---blockchain--.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 08:16:09</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://democratieouverte.org/blog/evenement-civic-tech-et-innovations-democratiques">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Démocratie Ouverte</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_19"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://democratieouverte.org/blog/evenement-civic-tech-et-innovations-democratiques</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 08:53:59</dcterms:dateSubmitted>
+        <dcterms:abstract>Le 8 juin dernier, La 27e R&amp;eacute;gion et D&amp;eacute;mocratie Ouverte tentaient un &amp;eacute;tat des lieux des nouvelles exp&amp;eacute;rimentations d&amp;eacute;mocratiques. Intitul&amp;eacute;e &amp;ldquo;CivicTech et innovations d&amp;eacute;mocratiques : un premier bilan&amp;rdquo;,...</dcterms:abstract>
+        <dc:title>[Évènement] Civic Tech et Innovations Démocratiques</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_19">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:evenement-civic-tech-et-innovations-democratiques.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://democratieouverte.org/blog/evenement-civic-tech-et-innovations-democratiques</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 08:54:05</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://democratieouverte.org/blog/offre-d-emploi-l-incubateur-d-innovations-democratiques-recrute-son-responsable">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Démocratie Ouverte</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_21"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://democratieouverte.org/blog/offre-d-emploi-l-incubateur-d-innovations-democratiques-recrute-son-responsable</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 08:55:05</dcterms:dateSubmitted>
+        <dcterms:abstract>CANDIDATURES CLOSES
+
+Pr&amp;eacute;sentation de D&amp;eacute;mocratie Ouverte
+
+D&amp;eacute;mocratie Ouverte (association loi 1901) est un collectif citoyen ind&amp;eacute;pendant et non-partisan, d&amp;eacute;di&amp;eacute; &amp;agrave; l&amp;rsquo;&amp;eacute;mergence d&amp;rsquo;une...</dcterms:abstract>
+        <dc:title>[Offre d'emploi - Candidatures closes] L'incubateur d'innovations démocratiques recrute son responsable !</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_21">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:offre-d-emploi-l-incubateur-d-innovations-democratiques-recrute-son-responsable.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://democratieouverte.org/blog/offre-d-emploi-l-incubateur-d-innovations-democratiques-recrute-son-responsable</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 08:55:09</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://democratie-ouverte.cap-collectif.com/blog/bientot-une-fondation-pour-l-innovation-democratique">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Démocratie Ouverte</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_23"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://democratie-ouverte.cap-collectif.com/blog/bientot-une-fondation-pour-l-innovation-democratique</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 08:56:31</dcterms:dateSubmitted>
+        <dcterms:abstract>Afin de parvenir &amp;agrave; suivre dans les meilleures conditions le foisonnement de projets d&amp;rsquo;innovation d&amp;eacute;mocratique que conna&amp;icirc;t la France actuellement, D&amp;eacute;mocratie Ouverte envisage de faire &amp;eacute;voluer son statut d&amp;rsquo;association...</dcterms:abstract>
+        <dc:title>Bientôt une fondation pour l'innovation démocratique</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_23">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:bientot-une-fondation-pour-l-innovation-democratique.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://democratie-ouverte.cap-collectif.com/blog/bientot-une-fondation-pour-l-innovation-democratique</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 08:56:38</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.20minutes.fr/magazine/economie-collaborative/perspectives/comment-les-civic-tech-reinventent-la-vie-politique-francaise-266568/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>20minutes.fr</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Valnier</foaf:surname>
+                        <foaf:givenname>Julien</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_25"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.20minutes.fr/magazine/economie-collaborative/perspectives/comment-les-civic-tech-reinventent-la-vie-politique-francaise-266568/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 09:27:07</dcterms:dateSubmitted>
+        <dcterms:abstract>Voxe, LaPrimaire, Fluicity...ces applications qui tentent de réinventer notre démocratie ne sont que le début d'un changement de paradigme, assurent les</dcterms:abstract>
+        <dc:title>Comment les «civic-tech» réinventent la vie politique française - 20 Minutes s'intéresse à l'économie collaborative</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_25">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:comment-les-civic-tech-reinventent-la-vie-politique-francaise-266568.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.20minutes.fr/magazine/economie-collaborative/perspectives/comment-les-civic-tech-reinventent-la-vie-politique-francaise-266568/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 09:27:09</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://lentreprise.lexpress.fr/actualites/1/actualites/l-association-democratie-ouverte-lance-un-incubateur-pour-les-civic-tech_1857635.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>LEntreprise.com</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_27"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://lentreprise.lexpress.fr/actualites/1/actualites/l-association-democratie-ouverte-lance-un-incubateur-pour-les-civic-tech_1857635.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2016-12-06T14:50:30Z-09:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-10 09:27:44</dcterms:dateSubmitted>
+        <dcterms:abstract>Paris, 6 déc 2016 - L'association Démocratie ouverte, collectif d'acteurs engagés dans la participation citoyenne via le recours aux nouvelles technologies, a annoncé mardi le lancement d'un &quot;incubateur de l'innovation démocratique&quot; pour accompagner les &quot;civic tech&quot; françaises.</dcterms:abstract>
+        <dc:title>L'association Démocratie ouverte lance un incubateur pour les &quot;civic tech&quot;</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_27">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:l-association-democratie-ouverte-lance-un-incubateur-pour-les-civic-tech_1857635.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://lentreprise.lexpress.fr/actualites/1/actualites/l-association-democratie-ouverte-lance-un-incubateur-pour-les-civic-tech_1857635.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-10 09:27:45</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.fondation-nicolas-hulot.org/sites/default/files/osons_le-big_bang3.pdf">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fourniau</foaf:surname>
+                        <foaf:givenname>Jean-micheL</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Francois</foaf:surname>
+                        <foaf:givenname>Bastien</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_30"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.fondation-nicolas-hulot.org/sites/default/files/osons_le-big_bang3.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-14 07:31:25</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:title>OSONS LE BIG BANG DÉMOCRATIQUE</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_30">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:Fourniau et Francois - OSONS LE BIG BANG DÃMOCRATIQUE.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.fondation-nicolas-hulot.org/sites/default/files/osons_le-big_bang3.pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-14 07:31:25</dcterms:dateSubmitted>
+        <dc:title>[PDF] fondation-nicolas-hulot.org</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.cairn.info/revue-le-debat-2016-5-page-55.html">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+               <prism:number>5</prism:number><dc:title>Le Débat</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Merchier</foaf:surname>
+                        <foaf:givenname>Maurice</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_32"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.cairn.info/revue-le-debat-2016-5-page-55.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>55–66</bib:pages>
+        <dc:date>2016</dc:date>
+        <dcterms:dateSubmitted>2017-05-14 08:24:10</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:title>Vers la transdémocratie?</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_32">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:revue-le-debat-2016-5-page-55.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.cairn.info/revue-le-debat-2016-5-page-55.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-14 08:24:12</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="http://www.cairn.info/la-democratie-de-l-entre-soi--9782724620504-page-73.htm">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Book><dc:title>La démocratie de l’entre-soi</dc:title></bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Presses de Sciences Po (PFNSP)</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Vedel</foaf:surname>
+                        <foaf:givenname>Thierry</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_34"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.cairn.info/la-democratie-de-l-entre-soi--9782724620504-page-73.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>73–88</bib:pages>
+        <dc:date>2017</dc:date>
+        <dcterms:dateSubmitted>2017-05-14 08:29:44</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:title>Chapitre 5-L’internet et la démocratie: une liaison difficile</dc:title>
+        <z:shortTitle>Chapitre 5-L’internet et la démocratie</z:shortTitle>
+    </bib:BookSection>
+    <z:Attachment rdf:about="#item_34">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:la-democratie-de-l-entre-soi--9782724620504-page-73.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.cairn.info/la-democratie-de-l-entre-soi--9782724620504-page-73.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-14 08:29:46</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.cairn.info/resume.php?ID_ARTICLE=PRO_354_0068">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0033-0884"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fardeau</foaf:surname>
+                        <foaf:givenname>Jean-Marie</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_37"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.cairn.info/resume.php?ID_ARTICLE=PRO_354_0068</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>68-72</bib:pages>
+        <dc:date>2016-11-10</dc:date>
+        <dcterms:dateSubmitted>2017-05-14 08:29:52</dcterms:dateSubmitted>
+        <z:libraryCatalog>Cairn.info</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dc:title>Le rôle de la société civile</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0033-0884">
+        <prism:number>354</prism:number>
+        <dc:title>Revue Projet</dc:title>
+        <dc:identifier>ISSN 0033-0884</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_37">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:revue-projet-2016-5-page-68.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.cairn.info/revue-projet-2016-5-page-68.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-14 08:29:54</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://hal.univ-lorraine.fr/hal-01501965/document">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Carlino</foaf:surname>
+                        <foaf:givenname>Vincent</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mabi</foaf:surname>
+                        <foaf:givenname>Clément</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_39"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://hal.univ-lorraine.fr/hal-01501965/document</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017</dc:date>
+        <dcterms:dateSubmitted>2017-05-14 08:34:11</dcterms:dateSubmitted>
+        <z:libraryCatalog>Google Scholar</z:libraryCatalog>
+        <dc:title>Mobilisation</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_39">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:Carlino et Mabi - 2017 - Mobilisation.pdf"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://hal.univ-lorraine.fr/hal-01501965/document</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-14 08:34:11</dcterms:dateSubmitted>
+        <dc:title>[PDF] univ-lorraine.fr</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.franceculture.fr/politique/loic-blondiaux">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>France Culture</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_44"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.franceculture.fr/politique/loic-blondiaux</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2016-05-20T18:18:00+02:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-15 17:08:36</dcterms:dateSubmitted>
+        <dcterms:abstract>Pour le professeur de science politique à l’Université Paris I Panthéon-Sorbonne, les technologies et innovations au service de la démocratie ont un fort potentiel de transformation. Mais leur effet réel reste encore limité.</dcterms:abstract>
+        <dc:title>Loïc Blondiaux : &quot;les civic tech ont un fort potentiel de transformation démocratique&quot;</dc:title>
+        <z:shortTitle>Loïc Blondiaux</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_44">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:2016 - LoÃ¯c Blondiaux : &quot;les civic tech ont un fort poten.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.franceculture.fr/politique/loic-blondiaux</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-15 17:08:38</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.liberation.fr/evenements-libe/2016/05/18/le-mouvement-des-civic-tech-revolution-democratique-ou-promesse-excessive_1453508">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Libération.fr</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_46"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.liberation.fr/evenements-libe/2016/05/18/le-mouvement-des-civic-tech-revolution-democratique-ou-promesse-excessive_1453508</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2016-05-18T18:42:32</dc:date>
+        <dcterms:dateSubmitted>2017-05-15 17:09:29</dcterms:dateSubmitted>
+        <dcterms:abstract>Loïc Blondiaux, professeur de science politique à l’Université Paris I Panthéon-Sorbonne, questionne la pertinence des plate-formes de démocratie collaborative. Tribune.</dcterms:abstract>
+        <dc:title>Le mouvement des civic-tech : révolution démocratique ou promesse excessive?</dc:title>
+        <z:shortTitle>Le mouvement des civic-tech</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_46">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:le-mouvement-des-civic-tech-revolution-democratique-ou-promesse-excessive_1453508.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.liberation.fr/evenements-libe/2016/05/18/le-mouvement-des-civic-tech-revolution-democratique-ou-promesse-excessive_1453508</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-15 17:09:31</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.RegardsCitoyens.org">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>RegardsCitoyens.org</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_51"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.RegardsCitoyens.org</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-17 07:01:15</dcterms:dateSubmitted>
+        <dcterms:abstract>Transparence de la vie politique et Open Data</dcterms:abstract>
+        <dc:title>Regards Citoyens</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_51">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:qui-sommes-nous.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.regardscitoyens.org/qui-sommes-nous/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-17 07:01:17</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://civictechno.fr/a-propos/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>Civic Tech</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_53"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://civictechno.fr/a-propos/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2016-01-10T16:57:43+00:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-17 07:30:28</dcterms:dateSubmitted>
+        <dcterms:abstract>Ce site a pour ambition de valoriser et de fédérer les acteurs CivicTech et du renouveau démocratique en relayant l'actualité du secteur, réalisant des interviews des parties prenantes ou en leur ouvrant des tribunes libres. L’auteur partage également ses réflexions sur le blog.</dcterms:abstract>
+        <dc:title>CivicTechno.fr : pourquoi ? Pour qui ? Par qui ?</dc:title>
+        <z:shortTitle>CivicTechno.fr</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_53">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:a-propos.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://civictechno.fr/a-propos/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-17 07:30:34</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.latribune.fr/technos-medias/civic-tech-comment-la-technologie-redonne-du-pouvoir-aux-citoyens-573318.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>La Tribune</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_55"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.latribune.fr/technos-medias/civic-tech-comment-la-technologie-redonne-du-pouvoir-aux-citoyens-573318.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-17 09:09:39</dcterms:dateSubmitted>
+        <dcterms:abstract>À l'approche de l'élection présidentielle de 2017, les Civic Tech, ces plateformes citoyennes désirant changer la pratique de la démocratie grâce aux nouvelles technologies, prennent de l'ampleur.</dcterms:abstract>
+        <dc:title>Comment les Civic Tech réinventent la démocratie à l'ère d'internet</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_55">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:civic-tech-comment-la-technologie-redonne-du-pouvoir-aux-citoyens-573318.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.latribune.fr/technos-medias/civic-tech-comment-la-technologie-redonne-du-pouvoir-aux-citoyens-573318.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-17 09:09:48</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.lemonde.fr/livres/article/2010/09/16/la-democratie-internet-promesses-et-limites-de-dominique-cardon-et-mediactivistes-de-dominique-cardon-et-fabien-granjon_1411864_3260.html">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1950-6244"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bastin</foaf:surname>
+                        <foaf:givenname>Gilles</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_57"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lemonde.fr/livres/article/2010/09/16/la-democratie-internet-promesses-et-limites-de-dominique-cardon-et-mediactivistes-de-dominique-cardon-et-fabien-granjon_1411864_3260.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2010-09-16T12:29:48+02:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-17 09:24:59</dcterms:dateSubmitted>
+        <z:libraryCatalog>Le Monde</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dcterms:abstract>Lieu d'expérimentation voire d'émancipation, la Toile est aussi un laboratoire politique.</dcterms:abstract>
+        <dc:title>&quot;La Démocratie Internet. Promesses et limites&quot;, de Dominique Cardon et &quot;Médiactivistes&quot;, de Dominique Cardon et Fabien Granjon : l'utopie Internet</dc:title>
+        <z:shortTitle>&quot;La Démocratie Internet. Promesses et limites&quot;, de Dominique Cardon et &quot;Médiactivistes&quot;, de Dominique Cardon et Fabien Granjon</z:shortTitle>
+    </bib:Article>
+    <bib:Newspaper rdf:about="urn:issn:1950-6244">
+        <dc:title>Le Monde.fr</dc:title>
+        <dc:identifier>ISSN 1950-6244</dc:identifier>
+    </bib:Newspaper>
+    <z:Attachment rdf:about="#item_57">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:la-democratie-internet-promesses-et-limites-de-dominique-cardon-et-mediactivistes-de-dominique-.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lemonde.fr/livres/article/2010/09/16/la-democratie-internet-promesses-et-limites-de-dominique-cardon-et-mediactivistes-de-dominique-cardon-et-fabien-granjon_1411864_3260.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-17 09:25:08</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.laviedesidees.fr/Citoyen-hackeur.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_59"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.laviedesidees.fr/Citoyen-hackeur.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-17 09:34:48</dcterms:dateSubmitted>
+        <dcterms:abstract>Pour accroître la participation citoyenne et la réactivité politique, de nouvelles civic tech revendiquent aujourd'hui de « hacker » la démocratie. Au (...)</dcterms:abstract>
+        <dc:title>Citoyen hackeur</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_59">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:Citoyen-hackeur.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.laviedesidees.fr/Citoyen-hackeur.html#nb1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-17 09:34:50</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.latribune.fr/technos-medias/internet/paris-accueille-le-premier-incubateur-pour-les-civic-tech-622616.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>La Tribune</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_77"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.latribune.fr/technos-medias/internet/paris-accueille-le-premier-incubateur-pour-les-civic-tech-622616.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-23 18:09:50</dcterms:dateSubmitted>
+        <dcterms:abstract>En parallèle du sommet mondial du Partenariat pour un gouvernement ouvert (PGO), qui se tient à Paris du 7 au 9 décembre, le collectif Démocratie ouverte lance à Paris le premier incubateur français dédié à la Civic Tech. Avec l’objectif de faire émerger de nouveaux outils numériques capables de mieux impliquer les citoyens dans la vie démocratique.</dcterms:abstract>
+        <dc:title>Paris accueille le premier incubateur pour les &quot;Civic Tech&quot;</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_77">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:paris-accueille-le-premier-incubateur-pour-les-civic-tech-622616.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.latribune.fr/technos-medias/internet/paris-accueille-le-premier-incubateur-pour-les-civic-tech-622616.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-23 18:09:56</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.rfi.fr/hebdo/20170217-civic-tech-lutte-corruption-citoyen-technologies-projets">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>RFI</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_78"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.rfi.fr/hebdo/20170217-civic-tech-lutte-corruption-citoyen-technologies-projets</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017-02-17T15:26:11+01:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-23 18:59:20</dcterms:dateSubmitted>
+        <dcterms:abstract>Utiliser la technologie pour plus de transparence politique et mieux lutter contre la corruption, c&amp;rsquo;est le principe du ph&amp;eacute;nom&amp;egrave;ne &amp;laquo;civic tech&amp;raquo;. En mettant &amp;agrave; contribution des citoyens, de nouveaux outils 2.0 se...</dcterms:abstract>
+        <dc:title>«Civic tech», la lutte contre la corruption à l'heure d'Internet</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_78">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:20170217-civic-tech-lutte-corruption-citoyen-technologies-projets.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.rfi.fr/hebdo/20170217-civic-tech-lutte-corruption-citoyen-technologies-projets</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-23 18:59:24</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.lexpress.fr/culture/livre/tocqueville-la-face-cachee-d-un-prophete_1650795.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>LExpress.fr</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_72"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lexpress.fr/culture/livre/tocqueville-la-face-cachee-d-un-prophete_1650795.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2015-02-17T15:53:51Z-09:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-23 18:49:24</dcterms:dateSubmitted>
+        <dcterms:abstract>Alexis de Tocqueville, qui devint célèbre à 30 ans, n'avait rien d'un académicien austère et compassé. Amoureux passionné et voyageur infatigable, il a partagé la vie des Indiens et dénoncé, au péril de sa vie, toutes les atteintes à la liberté humaine.</dcterms:abstract>
+        <dc:title>Tocqueville: la face cachée d'un prophète</dc:title>
+        <z:shortTitle>Tocqueville</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_72">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:tocqueville-la-face-cachee-d-un-prophete_1650795.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lexpress.fr/culture/livre/tocqueville-la-face-cachee-d-un-prophete_1650795.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-23 18:49:26</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.lemonde.fr/o21/article/2017/03/14/les-civic-tech-ou-la-democratie-a-l-epreuve-du-numerique_5094226_5014018.html">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Newspaper>
+                <dc:title>Le Monde.fr</dc:title>
+                <dc:identifier>ISSN 1950-6244</dc:identifier>
+            </bib:Newspaper>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Soria</foaf:surname>
+                        <foaf:givenname>Marine Miller et Paloma</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_73"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lemonde.fr/o21/article/2017/03/14/les-civic-tech-ou-la-democratie-a-l-epreuve-du-numerique_5094226_5014018.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017-03-14T11:54:51+01:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-23 18:20:54</dcterms:dateSubmitted>
+        <z:libraryCatalog>Le Monde</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dcterms:abstract>Les plates-formes d’engagement citoyen séduisent de plus en plus de jeunes, diplômés et citadins en tête.</dcterms:abstract>
+        <dc:title>Les « Civic tech » ou la démocratie en version start-up</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_73">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:les-civic-tech-ou-la-democratie-a-l-epreuve-du-numerique_5094226_5014018.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lemonde.fr/o21/article/2017/03/14/les-civic-tech-ou-la-democratie-a-l-epreuve-du-numerique_5094226_5014018.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-23 18:21:17</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.lexpress.fr/actualite/politique/elections/la-civic-tech-ses-applis-et-plateformes-peuvent-elles-reinventer-la-politique_1868572.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>LExpress.fr</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_75"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lexpress.fr/actualite/politique/elections/la-civic-tech-ses-applis-et-plateformes-peuvent-elles-reinventer-la-politique_1868572.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017-01-20T07:10:00Z-09:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-23 18:30:34</dcterms:dateSubmitted>
+        <dcterms:abstract>En conférant aux citoyens de nouveaux modes d'expression, les nouveaux outils numériques bouleversent les règles du jeu. Et promettent l'avènement d'une &quot;démocratie augmentée&quot;.</dcterms:abstract>
+        <dc:title>La civic-tech, ses applis et plateformes peuvent-elles réinventer la politique?</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_75">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:la-civic-tech-ses-applis-et-plateformes-peuvent-elles-reinventer-la-politique_1868572.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.lexpress.fr/actualite/politique/elections/la-civic-tech-ses-applis-et-plateformes-peuvent-elles-reinventer-la-politique_1868572.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-23 18:30:36</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://transparency-france.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+            <z:Website>
+               <dc:title>Transparency International France</dc:title>
+            </z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_70"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://transparency-france.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-23 19:05:19</dcterms:dateSubmitted>
+        <dcterms:abstract>Section française de Transparency International, principale organisation de la société civile de lutte contre la corruption.</dcterms:abstract>
+        <dc:title>Transparency International France | Ensemble contre la corruption</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_70">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:transparency-france.org.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://transparency-france.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-23 19:05:25</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.mavoix.info">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>#MAVOIX</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <dcterms:isReferencedBy rdf:resource="#item_71"/>
+        <link:link rdf:resource="#item_79"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.mavoix.info</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-23 18:39:53</dcterms:dateSubmitted>
+        <dcterms:abstract>Accueil</dcterms:abstract>
+        <dc:title>Accueil</dc:title>
+    </bib:Document>
+    <bib:Memo rdf:about="#item_71">
+       <rdf:value>&lt;p&gt;Site civictech : mavoix.info&lt;/p&gt;</rdf:value>
+    </bib:Memo>
+    <z:Attachment rdf:about="#item_79">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:www.mavoix.info.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.mavoix.info/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-23 18:40:03</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://civictechno.fr/search/16+janvier+2016/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>Civic Tech</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_76"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://civictechno.fr/search/16+janvier+2016/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-23 18:03:31</dcterms:dateSubmitted>
+        <dc:title>Vous avez cherché 16 janvier 2016</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_76">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:civictechno.fr.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://civictechno.fr/?s=16+janvier+2016</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-23 18:03:38</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://civictechno.fr/2016/01/16/cest-quoi-la-civic-tech/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>Civic Tech</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_82"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://civictechno.fr/2016/01/16/cest-quoi-la-civic-tech/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2016-01-16T23:41:44+00:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-28 13:10:26</dcterms:dateSubmitted>
+        <dcterms:abstract>C'est quoi la Civic Tech ? Définitions, enjeux, acteurs et perspectives</dcterms:abstract>
+        <dc:title>C'est quoi la Civic Tech ?</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_82">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:cest-quoi-la-civic-tech.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://civictechno.fr/2016/01/16/cest-quoi-la-civic-tech/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-28 13:10:29</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://www.NosDéputés.fr">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>NosDéputés.fr</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_84"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.NosDéputés.fr</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-28 13:35:25</dcterms:dateSubmitted>
+        <dcterms:abstract>Observatoire citoyen de l'activité parlementaire à l'Assemblée nationale</dcterms:abstract>
+        <dc:title>NosDéputés.fr - Regards Citoyens</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_84">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:www.nosdeputes.fr.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.nosdeputes.fr/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-28 13:35:27</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.change.org/about">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Change.org</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_86"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.change.org/about</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-28 13:38:19</dcterms:dateSubmitted>
+        <dcterms:abstract>Sur Change.org, des personnes venues de tous horizons lancent des campagnes, mobilisent des sympathisants et travaillent avec les décideurs pour créer des solutions.</dcterms:abstract>
+        <dc:title>Change.org - La plateforme mondiale pour le changement</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_86">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:about.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.change.org/about</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-28 13:38:22</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://la-rem.eu/2017/02/02/civic-tech/">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+            <z:Blog>
+               <dc:title>La revue européenne des médias et du numérique</dc:title>
+            </z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pinard</foaf:surname>
+                        <foaf:givenname>Sarah</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_90"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://la-rem.eu/2017/02/02/civic-tech/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2017-02-02T09:00:38+00:00</dc:date>
+        <dcterms:dateSubmitted>2017-05-28 13:50:03</dcterms:dateSubmitted>
+        <dcterms:abstract>Abréviation de Civic Technology la Civic Tech décrit l’utilisation du numérique pour améliorer l’implication du citoyen dans la démocratie.</dcterms:abstract>
+        <dc:title>Civic Tech</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_90">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:civic-tech.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://la-rem.eu/2017/02/02/civic-tech/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-28 13:50:05</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://tempsreel.nouvelobs.com/politique/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>L'Obs</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_98"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://tempsreel.nouvelobs.com/politique/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-29 00:14:08</dcterms:dateSubmitted>
+        <dcterms:abstract>Actualités de la politique en France en continu, les déclarations du gouvernement et de l'opposition, suivez en direct l'actualité politique sur L'Obs.</dcterms:abstract>
+        <dc:title>L'actualité Politique en France</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_98">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:politique.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://tempsreel.nouvelobs.com/politique/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-29 00:14:19</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="http://tempsreel.nouvelobs.com/index/2015/10/19/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>L'Obs</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_100"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://tempsreel.nouvelobs.com/index/2015/10/19/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-29 00:17:19</dcterms:dateSubmitted>
+        <dcterms:abstract>François Hollande, Front National, CGT, France, Justice : les actualités du 19 octobre 2015 par la rédaction de L'Obs</dcterms:abstract>
+        <dc:title>Actualités du 19 octobre 2015</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_100">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:19.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://tempsreel.nouvelobs.com/index/2015/10/19/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-29 00:17:21</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://associationici.fr/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>associationici.fr</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>damienici</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_97"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://associationici.fr/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-29 00:23:20</dcterms:dateSubmitted>
+        <dcterms:abstract>Cette page d'accueil vous permettra à terme d'accéder à l'ensemble des contenus proposés par l'AssociationICI. #Atelier #Guide #Contact #Projets</dcterms:abstract>
+        <dc:title>AssociationICI : démocratiser l'accès au numérique</dc:title>
+        <z:shortTitle>AssociationICI</z:shortTitle>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_97">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:associationici.fr.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://associationici.fr/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-29 00:23:23</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="https://fr.wikipedia.org/w/index.php?title=Civic_tech&amp;oldid=137602794">
+        <z:itemType>encyclopediaArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Book><dc:title>Wikipédia</dc:title></bib:Book>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_101"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://fr.wikipedia.org/w/index.php?title=Civic_tech&amp;oldid=137602794</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:rights>Creative Commons Attribution-ShareAlike License</dc:rights>
+        <dc:date>2017-05-23T20:13:02Z</dc:date>
+        <dc:description>Page Version ID: 137602794</dc:description>
+        <dcterms:dateSubmitted>2017-05-29 00:21:09</dcterms:dateSubmitted>
+        <z:libraryCatalog>Wikipedia</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dcterms:abstract>La civic tech (abréviation de civic technology, ou technologie civique) représente l’ensemble des procédés, outils et technologies qui permettent d’améliorer le système politique.</dcterms:abstract>
+        <dc:title>Civic tech</dc:title>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_101">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:index.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://fr.wikipedia.org/w/index.php?title=Civic_tech&amp;oldid=137602794</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-29 00:21:11</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://medium.com/@ValentinChaput/civic-tech-1-la-civic-tech-veut-inventer-la-d%C3%A9mocratie-de-l-%C3%A8re-internet-c9e7d5b5d742">
+        <z:itemType>blogPost</z:itemType>
+        <dcterms:isPartOf>
+           <z:Blog><dc:title>Medium</dc:title></z:Blog>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chaput</foaf:surname>
+                        <foaf:givenname>Valentin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_99"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://medium.com/@ValentinChaput/civic-tech-1-la-civic-tech-veut-inventer-la-d%C3%A9mocratie-de-l-%C3%A8re-internet-c9e7d5b5d742</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2016-01-08T17:57:26.769Z</dc:date>
+        <dcterms:dateSubmitted>2017-05-29 00:30:09</dcterms:dateSubmitted>
+        <dcterms:abstract>civic-tech #1</dcterms:abstract>
+        <dc:title>La civic-tech veut inventer la démocratie de l’ère internet</dc:title>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_99">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="storage:civic-tech-1-la-civic-tech-veut-inventer-la-dÃ©mocratie-de-l-Ã¨re-internet-c9e7d5b5d742.html"/>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://medium.com/@ValentinChaput/civic-tech-1-la-civic-tech-veut-inventer-la-d%C3%A9mocratie-de-l-%C3%A8re-internet-c9e7d5b5d742</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2017-05-29 00:30:12</dcterms:dateSubmitted>
+        <dc:title>Snapshot</dc:title>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:ConferenceProceedings rdf:about="https://www.slideshare.net/knightfoundation/knight-civictech/6-6Civic_Tech_A_Convergence_of">
+        <z:itemType>presentation</z:itemType>
+        <z:presenters>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Knight Foundation</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:presenters>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.slideshare.net/knightfoundation/knight-civictech/6-6Civic_Tech_A_Convergence_of</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:rights>License: CC Attribution-NonCommercial-NoDerivs License</dc:rights>
+        <dc:date>19:07:10 UTC</dc:date>
+        <dcterms:dateSubmitted>2017-05-29 00:26:30</dcterms:dateSubmitted>
+        <z:type>Business</z:type>
+        <dcterms:abstract>6Civic Tech: A Convergence of FieldsThis review incorporates tech&lt;</dcterms:abstract>
+        <dc:title>6 Civic Tech: A Convergence</dc:title>
+        <z:shortTitle>6 Civic Tech</z:shortTitle>
+    </bib:ConferenceProceedings>
+    <z:Collection rdf:about="#collection_3">
+        <dc:title>Média</dc:title>
+        <dcterms:hasPart rdf:resource="http://civictechno.fr/a-propos/"/>
+        <dcterms:hasPart rdf:resource="http://www.latribune.fr/technos-medias/internet/paris-accueille-le-premier-incubateur-pour-les-civic-tech-622616.html"/>
+        <dcterms:hasPart rdf:resource="http://www.rfi.fr/hebdo/20170217-civic-tech-lutte-corruption-citoyen-technologies-projets"/>
+        <dcterms:hasPart rdf:resource="http://www.lexpress.fr/culture/livre/tocqueville-la-face-cachee-d-un-prophete_1650795.html"/>
+        <dcterms:hasPart rdf:resource="http://www.lemonde.fr/o21/article/2017/03/14/les-civic-tech-ou-la-democratie-a-l-epreuve-du-numerique_5094226_5014018.html"/>
+        <dcterms:hasPart rdf:resource="http://www.lexpress.fr/actualite/politique/elections/la-civic-tech-ses-applis-et-plateformes-peuvent-elles-reinventer-la-politique_1868572.html"/>
+        <dcterms:hasPart rdf:resource="https://transparency-france.org/"/>
+        <dcterms:hasPart rdf:resource="https://www.mavoix.info"/>
+        <dcterms:hasPart rdf:resource="http://civictechno.fr/search/16+janvier+2016/"/>
+        <dcterms:hasPart rdf:resource="http://tempsreel.nouvelobs.com/politique/"/>
+        <dcterms:hasPart rdf:resource="http://tempsreel.nouvelobs.com/index/2015/10/19/"/>
+        <dcterms:hasPart rdf:resource="https://associationici.fr/"/>
+        <dcterms:hasPart rdf:resource="https://fr.wikipedia.org/w/index.php?title=Civic_tech&amp;oldid=137602794"/>
+        <dcterms:hasPart rdf:resource="https://medium.com/@ValentinChaput/civic-tech-1-la-civic-tech-veut-inventer-la-d%C3%A9mocratie-de-l-%C3%A8re-internet-c9e7d5b5d742"/>
+        <dcterms:hasPart rdf:resource="https://www.slideshare.net/knightfoundation/knight-civictech/6-6Civic_Tech_A_Convergence_of"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_2">
+        <dc:title>Scientifique</dc:title>
+        <dcterms:hasPart rdf:resource="#collection_5"/>
+        <dcterms:hasPart rdf:resource="#collection_6"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_5">
+        <dc:title>Technique</dc:title>
+        <dcterms:hasPart rdf:resource="https://www.lesechos.fr/31/10/2016/lesechos.fr/0211442026292_securisons-les-votes-electroniques-grace-a-la---blockchain--.htm"/>
+        <dcterms:hasPart rdf:resource="http://democratieouverte.org/blog/offre-d-emploi-l-incubateur-d-innovations-democratiques-recrute-son-responsable"/>
+        <dcterms:hasPart rdf:resource="http://lentreprise.lexpress.fr/actualites/1/actualites/l-association-democratie-ouverte-lance-un-incubateur-pour-les-civic-tech_1857635.html"/>
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#Collection"/>
+        <dc:title>Technique</dc:title>
+        <dcterms:hasPart rdf:resource="https://www.lesechos.fr/31/10/2016/lesechos.fr/0211442026292_securisons-les-votes-electroniques-grace-a-la---blockchain--.htm"/>
+        <dcterms:hasPart rdf:resource="http://democratieouverte.org/blog/offre-d-emploi-l-incubateur-d-innovations-democratiques-recrute-son-responsable"/>
+        <dcterms:hasPart rdf:resource="http://lentreprise.lexpress.fr/actualites/1/actualites/l-association-democratie-ouverte-lance-un-incubateur-pour-les-civic-tech_1857635.html"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_6">
+        <dc:title>Social</dc:title>
+        <dcterms:hasPart rdf:resource="http://www.fondation-nicolas-hulot.org/sites/default/files/osons_le-big_bang3.pdf"/>
+        <dcterms:hasPart rdf:resource="https://www.franceculture.fr/politique/loic-blondiaux"/>
+        <dcterms:hasPart rdf:resource="http://www.liberation.fr/evenements-libe/2016/05/18/le-mouvement-des-civic-tech-revolution-democratique-ou-promesse-excessive_1453508"/>
+        <dcterms:hasPart rdf:resource="http://www.latribune.fr/technos-medias/civic-tech-comment-la-technologie-redonne-du-pouvoir-aux-citoyens-573318.html"/>
+        <dcterms:hasPart rdf:resource="http://www.lemonde.fr/livres/article/2010/09/16/la-democratie-internet-promesses-et-limites-de-dominique-cardon-et-mediactivistes-de-dominique-cardon-et-fabien-granjon_1411864_3260.html"/>
+        <dcterms:hasPart rdf:resource="http://www.laviedesidees.fr/Citoyen-hackeur.html"/>
+        <dcterms:hasPart rdf:resource="http://civictechno.fr/2016/01/16/cest-quoi-la-civic-tech/"/>
+        <dcterms:hasPart rdf:resource="http://www.NosDéputés.fr"/>
+        <dcterms:hasPart rdf:resource="https://www.change.org/about"/>
+        <rdf:type rdf:resource="http://www.zotero.org/namespaces/export#Collection"/>
+        <dc:title>Social</dc:title>
+        <dcterms:hasPart rdf:resource="http://www.fondation-nicolas-hulot.org/sites/default/files/osons_le-big_bang3.pdf"/>
+        <dcterms:hasPart rdf:resource="https://www.franceculture.fr/politique/loic-blondiaux"/>
+        <dcterms:hasPart rdf:resource="http://www.liberation.fr/evenements-libe/2016/05/18/le-mouvement-des-civic-tech-revolution-democratique-ou-promesse-excessive_1453508"/>
+        <dcterms:hasPart rdf:resource="http://www.latribune.fr/technos-medias/civic-tech-comment-la-technologie-redonne-du-pouvoir-aux-citoyens-573318.html"/>
+        <dcterms:hasPart rdf:resource="http://www.lemonde.fr/livres/article/2010/09/16/la-democratie-internet-promesses-et-limites-de-dominique-cardon-et-mediactivistes-de-dominique-cardon-et-fabien-granjon_1411864_3260.html"/>
+        <dcterms:hasPart rdf:resource="http://www.laviedesidees.fr/Citoyen-hackeur.html"/>
+        <dcterms:hasPart rdf:resource="http://civictechno.fr/2016/01/16/cest-quoi-la-civic-tech/"/>
+        <dcterms:hasPart rdf:resource="http://www.NosDéputés.fr"/>
+        <dcterms:hasPart rdf:resource="https://www.change.org/about"/>
+    </z:Collection>
+</rdf:RDF>
