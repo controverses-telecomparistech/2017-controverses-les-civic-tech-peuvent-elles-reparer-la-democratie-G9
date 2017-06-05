@@ -26,16 +26,18 @@ color = 0;
 setInterval(function() {
     x+=1;
     moveNav(x);
-    affiche(x);
 }, 10);
+
+var page = document.getElementsByTagName("meta")[0].getAttribute("page");
+if (page === undefined) {page = "0"};
+    page = parseInt(page);
+if (1 < page && page < 5) {show_nav2("Controverse");};
+if (4 < page && page < 8) {show_nav2("Approfondir");};
         
 
 }
 
-function affiche(x) {
-    //document.getElementById("p0").innerHTML =  "x vaut : " + x;
-}
-        
+
         
         function moveNav(x) {
             var i = 0;
@@ -43,11 +45,11 @@ function affiche(x) {
                 document.getElementById("a" + i).style.left = (25*i + x/12 )%200 - 25 + "%";
             }
             for (i=1; i<7; i++) {
-                document.getElementById("b" + i).style.right = (25*i + x/16)%150 -15 + "%";
+                document.getElementById("b" + i).style.right = (25*i + x/24)%150 -15 + "%";
             }
         }
   
-        function show_nav2(s){          
+        function show_nav2(s){
             document.getElementById("header2").style.visibility = "visible";
             if (s=="Controverse") {
                 document.getElementById("b1").innerHTML = "acteurs";

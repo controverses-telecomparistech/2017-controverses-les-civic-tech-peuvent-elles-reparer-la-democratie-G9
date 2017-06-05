@@ -18,3 +18,29 @@ svg {
   stroke: #fff;
   stroke-width: 1.5px;
 }
+
+#pinfo {
+    z-index:1;
+    text-align: left;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:1800px;
+    padding-left: 100px;
+    padding-top: 140px;
+    padding-right: 600px;
+    width:400px;
+    height:600px;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 5px 5px 5px 10px rgba(0,0,0,0.7);
+}
+
+#pinfo:focus{
+    left: 600px;
+    animation: moveLeft 0.3s;
+}
+
+@keyframes moveLeft {
+    0% {left: 1800px;}
+    100%{left: 600px;}
+}

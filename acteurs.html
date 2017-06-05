@@ -2,7 +2,8 @@
 <html lang="fr">
 <head>
     <link rel="stylesheet" href="./css/index.css"/>
-    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="./css/acteurs.css"/>
+    <meta charset="utf-8" page="2"/>
     <title>Page de Ouf</title>
 </head>
 <body>
@@ -10,20 +11,8 @@
     </div>
     <div id="body_cover">
         <div id="div_body">
-<style>
-
-.links line {
-  stroke: #999;
-  stroke-opacity: 0.6;
-}
-
-.nodes circle {
-  stroke: #fff;
-  stroke-width: 1.5px;
-}
-
-</style>
 <svg width="960" height="600"></svg>
+<div id="pinfo">SALUTTTTTTTTTTT</div>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
@@ -54,7 +43,7 @@ d3.json("miserables.json", function(error, graph) {
     .selectAll("circle")
     .data(graph.nodes)
     .enter().append("circle")
-    .attr("onclick", function(d) {return "clique_sur_node(\"" + d.id + "\")";})
+    .attr("onclick", function(d) {return "clique_sur_node(\"" + d.id + "\"" + ",\"" + d.desc + "\")";})
       .attr("r", rayon)
       .attr("fill", function(d) { return color(d.group); })
       .call(d3.drag()
@@ -102,8 +91,10 @@ function dragended(d) {
   d.fy = null;
 }
 
-function clique_sur_node(s) {
-    alert(s);
+function clique_sur_node(s1, s2) {
+    document.getElementById("pinfo").tabIndex = -1;
+    document.getElementById("pinfo").focus();
+    document.getElementById("pinfo").innerHTML = "<h1>" + s1 + "</h1>" + s2;
 }
     
 </script>
