@@ -29,7 +29,8 @@
 
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
-    height = +svg.attr("height");
+    height = +svg.attr("height"),
+    rayon = 15;
 
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
@@ -53,7 +54,8 @@ d3.json("miserables.json", function(error, graph) {
     .selectAll("circle")
     .data(graph.nodes)
     .enter().append("circle")
-      .attr("r", 5)
+    .attr("onclick", function(d) {return "clique_sur_node(\"" + d.id + "\")";})
+      .attr("r", rayon)
       .attr("fill", function(d) { return color(d.group); })
       .call(d3.drag()
           .on("start", dragstarted)
@@ -100,6 +102,10 @@ function dragended(d) {
   d.fy = null;
 }
 
+function clique_sur_node(s) {
+    alert(s);
+}
+    
 </script>
     </div>
     </div>
@@ -108,9 +114,5 @@ function dragended(d) {
         Contact | ETIC 2017 | Groupe de folie
     </footer>
     <script type="text/javascript" src="nav.js"></script>
-    <script>
-        document.getElementById("p3").innerHTML += " Exemple ici avec parseInt(\"53\") + 7 = " + (parseInt("53") + 7);
-    
-    </script>
 </body>
 </html>
