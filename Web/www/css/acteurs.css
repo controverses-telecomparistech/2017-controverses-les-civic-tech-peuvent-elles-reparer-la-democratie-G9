@@ -1,0 +1,51 @@
+
+svg {
+    position:fixed;
+    top:0px;
+    left:-200px;
+    padding:0;
+    margin:0;
+    
+}
+
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+#pinfo {
+    z-index:1;
+    text-align: left;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:2000px;
+    padding-left: 40px;
+    padding-top: 140px;
+    padding-right: 1200px;
+    width:320px;
+    height:100%;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 5px 5px 5px 10px rgba(0,0,0,0.7);
+}
+
+#pinfo:focus{
+    left: 400px;
+    animation: moveLeft 0.3s;
+}
+
+@keyframes moveLeft {
+    0% {left: 2000px;}
+    100%{left: 400px;}
+}
+#body_cover {
+    position:fixed;
+    height: 100%;
+    width:100%;
+}

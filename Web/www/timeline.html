@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="stylesheet" href="./css/timeline.css"/>
+    <meta charset="utf-8" page="4"/>
+    <title>CivicTech : Timeline</title>
+</head>
+<body>
+    <div id="header_container">
+    </div>
+    <div id="body_cover">
+       <!-- 1 -->
+      <link title="timeline-styles" rel="stylesheet" href="./css/timeline.css">
+
+      <!-- 2 -->
+      <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+      <div id='timeline-embed' style="width: 100%; height: 420px"></div>
+
+      <!-- 3 -->
+      <script type="text/javascript">
+        // The TL.Timeline constructor takes at least two arguments:
+        // the id of the Timeline container (no '#'), and
+        // the URL to your JSON data file or Google spreadsheet.
+        // the id must refer to an element "above" this code,
+        // and the element must have CSS styling to give it width and height
+        // optionally, a third argument with configuration options can be passed.
+        // See below for more about options.
+           var options = {
+                default_bg_color: {r:255, g:140, b:0},
+    initial_zoom: 100
+        }
+        timeline = new TL.Timeline('timeline-embed',
+          'http://docs.google.com/spreadsheets/d/1AAlP3CM4wcjhD2K-hhXT1vfrs5rYz--DlP8Y_0EDag8/edit#gid=0', options);
+      </script>
+    </div>
+    <footer>
+        <div id="footer_button">?</div>
+        Contact | ETIC 2017 | Groupe de folie
+    </footer>
+    <script type="text/javascript" src="nav.js"></script>
+</body>
+</html>

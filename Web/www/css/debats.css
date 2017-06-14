@@ -1,0 +1,173 @@
+@font-face {
+	font-family: "goodtimes";
+	src: url('./goodtimes.ttf');
+}
+#croquis {
+    font-family:goodtimes;
+    height: 150px;
+    padding: 60px 0px 0px 0;
+}
+
+#croquis a{
+    position: relative;
+    display: inline-block;
+    
+}
+
+#croquis a:hover{
+    color: rgb(255,0,0);
+}
+
+#croquis a:active{
+    color: rgb(200,0,0);
+}
+
+#croquis img{
+    position: absolute;
+    height:400px;
+    width: 400px;
+    left: -2px;
+    padding:0;
+    margin:0;
+}
+
+#p1{
+    top: 165px;
+    left: 90px;
+    width: 180px;
+}
+
+#p2 {
+    top:15px;
+    left:-50px;
+}
+
+#p6 {
+    top: 135px;
+    left: -190px;
+}
+
+#p10 {
+    top: 220px;
+    left: 66px;
+}
+
+#p14 {
+    top: 120px;
+    left: -330px;
+}
+
+#p1 {font-size : 0.9em;}
+
+#p2, #p6, #p10, #p14 {font-size: 0.7em;}
+
+#p11 {
+    top: 240px;
+    left:40px;
+    width: 60px;
+}
+
+#p12 {
+    top: 235px;
+    left:-150px;
+}
+
+#p13 {
+    top: 297px;
+    left:-147px;
+}
+
+#p3 {
+    top : 20px;
+    left: -200px;
+}
+
+#p3, #p4, #p5, #p7, #p8, #p9, #p11, #p12, #p13, #p15, #p16, #p17 {font-size:0.4em;}
+
+#p15 {
+    top:178px;
+    left:-393px;
+}
+
+#p16 {
+    top:116px;
+    left: -502px;
+}
+
+#p17 {
+    top:53px;
+    left: -503px;
+}
+
+#p5 {
+    top: 22px;
+    left: -195px;
+    width: 40px;
+}
+
+#p4 {
+    top: -38px;
+    left: -204px;
+    width: 60px;
+}
+
+#p7 {
+    top: 73px;
+    left: -241px;
+}
+
+#p8 {
+    top: 150px;
+    left:320px;
+}
+
+#p9 {
+    top: 180px;
+    left:267px;
+}
+
+#pinfo {
+    z-index:1;
+    text-align: left;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:1800px;
+    padding-left: 40px;
+    padding-top: 140px;
+    padding-right: 600px;
+    width:350px;
+    height:100%;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 5px 5px 5px 10px rgba(0,0,0,0.7);
+}
+
+#pinfo:focus{
+    left: 200px;
+    animation: moveLeft 0.3s;
+}
+
+@keyframes moveLeft {
+    0% {left: 1400px;}
+    100%{left: 200px;}
+}
+
+
+
+#div_body {
+    position: fixed;
+    left:20%;
+    height: 100%;
+    padding:20px 0 0 0;
+}
+
+#pinfo_text {
+    background-color: rgba(255,255,255,0.2);
+    height:100%;
+}
+
+#body_cover {
+    overflow: hidden;
+    position: fixed;
+    height:100%;
+}

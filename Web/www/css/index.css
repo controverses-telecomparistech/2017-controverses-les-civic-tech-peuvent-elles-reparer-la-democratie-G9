@@ -1,0 +1,299 @@
+:root {
+    --tdelay : 0.2s;
+}
+
+div, body {
+    padding:0;
+    margin:0;
+}
+@font-face {
+	font-family: "dimitri";
+	src: url('./DIMITRI_.TTF');
+}
+
+@font-face {
+	font-family: "goodtimes";
+	src: url('./goodtimes.ttf');
+}
+
+
+
+body {
+    text-align: center;
+    margin:0;
+    min-width: 200px;
+    overflow-x: hidden;
+    background-image: url("./foule.png");
+    background-attachment: fixed;
+    height:100%;
+    
+}
+
+
+
+
+footer {
+    display: inline-block;
+    position:fixed;
+    width:100%;
+    left:0;
+    margin:0;
+    padding:0;
+    bottom:-20px;;
+    height:20px;
+    background-color: rgba(255,150,50,0.95);
+    overflow:visible;
+    animation: c_example;
+    animation-duration: var(--tdelay);
+}
+
+@keyframes example {
+    0% {bottom: -20px;}
+    100% {bottom:0px;}
+}
+
+@keyframes c_example {
+    100% {bottom: -20px;}
+    0% {bottom:0px;}
+}
+footer:hover {
+    bottom:0px;
+    animation-name : example;
+    animation-duration: var(--tdelay);
+}
+
+p {
+    text-align: left;
+    padding: 0 10px 0 10px;
+}
+
+
+
+
+
+
+bold {
+    font-weight: bold;
+}
+
+
+
+img {
+    width: 60%;
+}
+
+h1 img:first-child {
+   float:left;
+    display:block;
+}
+
+h1 img:last-child {
+    float:right;
+    display: block;
+}
+
+
+/*//////////////////////////////////////HEADER AND LINKS////////////////////////////////////*/
+
+
+#header1 {
+    height:50px;
+    background-color: orange;
+    font-size: 1.4em;
+    animation-name : smaller;
+    animation-timing-function: ease-out;
+    animation-duration: var(--tdelay);
+    font-family : dimitri, fantasy;
+}
+
+@keyframes higher {
+    0% {height: 50px;}
+    100% {bottom:70px;}
+}
+@keyframes smaller {
+    0% {height: 70px;}
+    100% {bottom:50px;}
+}
+
+#header1:hover {
+    height : 70px;
+    animation-name : higher;
+    animation-timing-function: ease-out;
+    animation-duration: var(--tdelay);
+}
+.desc{
+    font-size: 0.8em;
+    font-style:italic;
+    padding: 0 100px;
+}
+#header2{
+    height:30px;
+    background-color: rgba(255,70,190,1);
+    visibility: collapse;
+    font-size: 0.8em;
+    font-family: goodtimes, fantasy;
+    animation: neon_oscillation 1s linear alternate infinite;
+}
+
+@keyframes neon_oscillation {
+    0% {box-shadow: 0px 10px 15px -1px rgba(200,0,155,0.8), 0px 5px 5px 0px rgba(0,0,0,0.3) inset;}
+    100% {box-shadow : 0px 1px 1px -1px rgba(200,0,155,0.8), 0px 5px 5px 0px rgba(0,0,0,0.3) inset;;}
+}
+
+.b {
+    height: 20px;
+    width : 15%;
+    padding: 10px 0 0 0;
+}
+
+@keyframes higher {
+    0% {height: 50px;}
+    100% {bottom:70px;}
+}
+@keyframes smaller {
+    0% {height: 70px;}
+    100% {bottom:50px;}
+}
+
+.b:hover {
+    
+    font-weight: bold;
+    color:crimson;
+    font-size: 1.2em;
+}
+header a {
+    display :inline-block;
+    color : black;
+    font-style: normal;
+    text-decoration: none;
+    position: absolute;
+    background-color: none;
+    width: 40%;
+    
+}
+
+.a {
+    height:40px;
+    padding : 10px 0 0px 0;
+    font-size : 1.4em;
+    width : 25%;
+    animation-name:less_bold;
+    animation-duration: var(--tdelay);
+}
+@keyframes bolder {
+    0% {color :black;}
+    100% { color:crimson;}
+}
+@keyframes less_bold {
+    100% {color :black;}
+    0% { color:crimson;}
+}
+.a:hover {
+    padding : 15px 0 0 0;
+    height : 35px;
+    font-weight: bold;
+    color:crimson;
+    animation-name: bolder;
+    animation-duration: var(--tdelay);
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#placement1 {
+    height :50px;
+}
+
+h1 {
+    font-size: 1.2em;
+    position: relative;
+    font-family: goodtimes, fantasy;
+    font-weight:bold;
+    overflow : hidden;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+#div_body {
+    font-size: 1em;
+    display:inline-block;
+    color: white;
+    width:650px;
+    padding: 120px 0 0 0;
+    border:none;
+    font-family:arial, fantasy;
+}
+
+html {
+    height:100%;
+}
+
+#body_cover {
+    z-index: 0;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: rgba(0,0,0,0.8);
+    align-content: center;
+}
+
+strong, bold {
+    color:aqua;
+}
+
+#alinea {
+    display: inline-block;
+    width: 40px;
+}
+
+#footer_button {
+    position: fixed;
+    left:0;
+    bottom:0px;
+    width:20px;
+    padding:0;
+    margin:0;
+    height:20px;
+    border:none;
+    background-color: rgba(255,150,50,0.95);
+}
+
+#header_container {
+    padding:inherit;
+    margin:inherit;
+    z-index: 3;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+.gras {
+    font-weight: bold;
+}
+
+.button {
+    width:280px;
+    padding: 10px;
+    margin: 0 10px 30px 10px;
+    vertical-align: middle;
+    display:block;
+    float:left;
+    height: 20px;
+    background-color: rgba(255,70,190,0.5);
+}
+
+h3 {
+    font-size: 1.1em;
+}
